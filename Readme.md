@@ -61,3 +61,16 @@ A entrada consiste em vários arquivos de teste, que conterá o valor bruto do s
 
 Saída
 Para cada arquivo da entrada, terá um arquivo de saída. E como mencionado no Desafio, será gerado uma linha com um número que será a diferença entre o valor bruto do salário e o percentual de imposto mediante a faixa salárial somado com o adicional dos benefícios. Use o exemplo abaixo para clarear o que está sendo pedido.
+
+# Desafio 5
+
+Desafio
+Supondo que a população de um país A tenha N habitantes com uma taxa anual de crescimento de 3% e que a população de B M habitantes com uma taxa de crescimento de 1.5%. Faça um programa que calcule e escreva o número de anos necessários para que a população do país A ultrapasse ou iguale a população do país B, mantidas as taxas de crescimento.
+
+Obs: O valor inicial da população A deverá ser sempre menor que do país B
+
+Entrada
+A entrada consiste em dois valores inteiros, sendo N a população do país A e M a população do país B.
+
+Saída
+A saída consiste em retornar o número de anos necessários para que a população do país A ultrapasse ou iguale a população B, mantidas as taxas de crescimento. Confira exemplo abaixo:
