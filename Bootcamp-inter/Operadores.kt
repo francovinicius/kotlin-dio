@@ -63,12 +63,18 @@ Não contem !In
 Range/faixa de valores Int..Int
  */
 
-fun OpLogicos() {
+fun InERange() {
     val numbers = listOf(3, 9, 0, 1, 2)
     println(12 in numbers)
     //false
 
     println(12 in 0..20)
     //true
+
+    val bing = listOf(8,6,34,2,13)
+    val number = (1..34).random()
+
+    println(number)
+    println(number !in bing)
 
 }
