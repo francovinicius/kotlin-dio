@@ -37,3 +37,38 @@ fun OpComp() {
     println(!(count.equals(times)))
 
 }
+
+//Op logicos
+
+/*
+E && Comando (Exoressão1)&&(Exoressão2) (Exoressão1)and(Exoressão2)
+Ou || Comando (Exoressão1)||(Exoressão2) (Exoressão1)or(Exoressão2)
+ */
+
+fun OpLogicos() {
+    val count = 10
+    val times = 9
+    val r = count == times
+
+    println(r)
+    println(!(count.equals(times)))
+
+}
+
+//Op In e range
+
+/*
+Contem In
+Não contem !In
+Range/faixa de valores Int..Int
+ */
+
+fun OpLogicos() {
+    val numbers = listOf(3, 9, 0, 1, 2)
+    println(12 in numbers)
+    //false
+
+    println(12 in 0..20)
+    //true
+
+}
