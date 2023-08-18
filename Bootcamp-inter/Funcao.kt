@@ -34,3 +34,15 @@ fun calculate(n1:Int,n2:Int,operation:(Int,Int)->Int):Int{
     val result = operation(n1,n2)
     return result
 }
+
+//  estruturas de controle
+
+//if/else, when, elvis operator
+
+//  repeticao
+
+/*
+while
+For
+ForEach
+ */
