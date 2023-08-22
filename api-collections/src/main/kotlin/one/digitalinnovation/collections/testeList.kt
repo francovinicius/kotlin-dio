@@ -2,9 +2,9 @@ package one.digitalinnovation.collections
 
 fun main() {
 
-    val joao = Funcionario("Joao", 1000.0)
+    val joao = Funcionario("Joao", 3000.0)
     val vini = Funcionario("Vini", 15000.0)
-    val pablo = Funcionario("Pablo", 3000.0)
+    val pablo = Funcionario("Pablo", 5000.0)
 
     val funcionarios = listOf(joao, vini, pablo)
 
@@ -15,6 +15,13 @@ fun main() {
     }
 
     println(funcionarios.find {it.nome == "Vini"})
+
+    println("-------*******-------")
+
+    funcionarios.sortedBy { it.salario }.forEach{
+        println(it)
+        println("----")
+    }
 
 
 }
