@@ -9,6 +9,7 @@ fun main() {
     values[3] = 9
     values[4] = 5
 
+    //declaramos valor
     for (valor in values) {
         println(valor)
     }
@@ -17,5 +18,22 @@ fun main() {
 
     values.forEach {
         println(it)
+    }
+
+    values.forEach { valor ->
+        println(valor)
+    }
+
+    println("--------------------")
+
+    for (index in values.indices) {
+        println(values[index])
+    }
+    println("--------------------")
+
+    //organizar
+    values.sort()
+    for (valor in values) {
+        println(valor)
     }
 }
