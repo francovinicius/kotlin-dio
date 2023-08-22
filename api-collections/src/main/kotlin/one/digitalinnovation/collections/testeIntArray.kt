@@ -31,7 +31,7 @@ fun main() {
     }
     println("--------------------")
 
-    //organizar
+    //ordenar (por padrao do menor pro maior)
     values.sort()
     for (valor in values) {
         println(valor)
