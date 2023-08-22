@@ -12,4 +12,10 @@ fun main() {
     for (valor in values) {
         println(valor)
     }
+
+    //forma 2
+
+    values.forEach {
+        println(it)
+    }
 }
